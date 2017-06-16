@@ -1605,7 +1605,7 @@
         "<div></div>"
       ],
       "tests": [
-        "assert(code.match(/background:\\s*?linear-gradient\\(35deg,\\s*?#CCFFFF,\\s*?#FFCCCC\\);/gi), 'message: The <code>div</code> element should have a <code>linear-gradient</code> <code>background</code> with the specified direction and colors.');"
+        "assert(code.match(/background:\\s*?linear-gradient\\(35deg,\\s*?#CCFFFF,\\s*?#FFCCCC\\)\\;?/gi), 'message: The <code>div</code> element should have a <code>linear-gradient</code> <code>background</code> with the specified direction and colors.');"
       ],
       "solutions": [],
       "hints": [],
